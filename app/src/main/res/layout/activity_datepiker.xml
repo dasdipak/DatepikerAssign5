@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".Datepiker">
+
+
+        <EditText
+            android:id="@+id/etjoining"
+            android:textSize="20dp"
+            android:focusable="false"
+            android:hint="Enter date of Joining"
+            android:inputType="date"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:id="@+id/etDob"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter DOB"
+            android:inputType="date"
+            android:focusable="false"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btncalculate"
+            android:text="Calculate"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvworked"
+            android:hint="No. of year worked"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvage"
+            android:hint="your age"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
